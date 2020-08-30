@@ -1,56 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Challenge One</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-<div class="container">
-    <div class="container__content">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__content" id="mainContent">
         <div class="container__textContent">
-            <p class="container__text">
-                “ I’ve been interested in coding for a while but never taken the jump, until now.
-                I couldn’t recommend this course enough. I’m now in the job of my dreams and so
-                excited about the future. ”
+          <p class="container__text" id="mainText">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”
+          </p>
+          <div class="container__authorData">
+            <p class="container__authorName" id="mainName">Tanya Sinclair</p>
+            <p class="container__authorPosition" id="mainPostion">
+              UX Engineer
             </p>
-            <div class="container__authorData">
-                <p class="container__authorName">
-                    Tanya Sinclair
-                </p>
-                <p class="container__authorPosition">
-                    UX Engineer
-                </p>
-            </div>
-            <div class="container__socialLinks">
-                <a href="#" class="container__socialLink" target="_blank">
-                    <img src="./images/facebook.svg" alt="facebook" class="container__socialImage">
-                </a>
-                <a href="#" class="container__socialLink" target="_blank">
-                    <img src="./images/twitter.svg" alt="twitter" class="container__socialImage">
-                </a>
-                <a href="#" class="container__socialLink" target="_blank">
-                    <img src="./images/linkedin.svg" alt="linkedin" class="container__socialImage">
-                </a>
-                <a href="#" class="container__socialLink" target="_blank">
-                    <img src="./images/Octicons-mark-github.svg" alt="github" class="container__socialImage">
-                </a>
-            </div>
+          </div>
+          <div class="container__socialLinks">
+            <a href="#" class="container__socialLink" target="_blank">
+              <img
+                src="./images/facebook.svg"
+                alt="facebook"
+                class="container__socialImage"
+              />
+            </a>
+            <a href="#" class="container__socialLink" target="_blank">
+              <img
+                src="./images/twitter.svg"
+                alt="twitter"
+                class="container__socialImage"
+              />
+            </a>
+            <a href="#" class="container__socialLink" target="_blank">
+              <img
+                src="./images/linkedin.svg"
+                alt="linkedin"
+                class="container__socialImage"
+              />
+            </a>
+            <a href="#" class="container__socialLink" target="_blank">
+              <img
+                src="./images/Octicons-mark-github.svg"
+                alt="github"
+                class="container__socialImage"
+              />
+            </a>
+          </div>
         </div>
         <div class="container__imageContent">
-            <img src="./images/image-tanya.jpg" alt="personal Picture" class="container__image">
+          <img
+            src="./images/image-tanya.jpg"
+            alt="personal Picture"
+            class="container__image"
+            id="mainImg"
+          />
+          <div class="container__imageBtns">
+            <a id="prev" class="container__imageBtn"
+              ><img src="./images/icon-prev.svg" alt="icon-prev"
+            /></a>
+            <a id="next" class="container__imageBtn"
+              ><img src="./images/icon-next.svg" alt="icon-next"
+            /></a>
+          </div>
         </div>
+      </div>
     </div>
-
-</div>
-<div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/PoulaHelmy">Poula Helmy</a>.
-</div>
-<script src="./main.js"></script>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/PoulaHelmy">Poula Helmy</a>.
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
